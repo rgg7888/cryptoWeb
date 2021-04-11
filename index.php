@@ -19,6 +19,20 @@ html("Les",[
                 p("Cheader-p","Batatabit te ayuda a navegar entre los diferentes precios y tendencias."),
                 a("H#plans Cheader--button",["Conoce Nuestros Planes",span()])
             ])
-        ])
+        ]),
+        main(null,[
+            section("Cmain-exchange-container",[
+                div("CbackgroundImg"),
+                div("Cmain-exchange-container--title",[
+                    h2(null,""),
+                    p()
+                ]),
+                section("Cmain-tables-container",div())
+            ]),
+            section(),
+            section(),
+            section()
+        ]),
+        footer()
     ])
 ]);
