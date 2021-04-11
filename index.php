@@ -12,6 +12,13 @@ html("Les",[
         title(null,"Batatabit")
     ]),
     body(null,[
-
+        hdr(null,[
+            cls(img("S./assets/img/logo.svg ALogo_Principal_Header")),
+            div("Cheader--title-container",[
+                h1(null,"La próxima revolución en el intercambio de criptomonedas."),
+                p("Cheader-p","Batatabit te ayuda a navegar entre los diferentes precios y tendencias."),
+                a("H#plans Cheader--button",["Conoce Nuestros Planes",span()])
+            ])
+        ])
     ])
 ]);
