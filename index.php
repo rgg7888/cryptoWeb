@@ -34,7 +34,7 @@ html("Les",[
                     table(null,[
                         tr(null,[
                             td("Ctable__top-left","Bitcoin"),
-                            td("Ctable__top-right table__right","$1.96")
+                            cls(td("Ctable__top-right*table__right","$1.96"),"*")
                         ]),
                         tr(null,[
                             td(null,"Ethereum"),
@@ -46,8 +46,12 @@ html("Les",[
                         ]),
                         tr(null,[
                             td("Ctable__bottom-left","Stellar"),
-                            td("Ctable__bottom-right table__right","$4.96")
+                            cls(td("Ctable__bottom-right*table__right","$4.96"),"*")
                         ])
+                    ])),
+                    div("Ccurrency-table--date",p(null,[
+                        b(null,"Actualizado: "),
+                        "4/11/2021 4:53 PM"
                     ]))
                 ]))
             ]),
