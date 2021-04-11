@@ -1,7 +1,0 @@
-{
-  "name": "rami/website",
-  "description": "pagina web mobile first, practica 01 (platzi)",
-  "require-dev": {
-    "ramirogg/seh": "^1.0"
-  }
-}
