@@ -24,10 +24,32 @@ html("Les",[
             section("Cmain-exchange-container",[
                 div("CbackgroundImg"),
                 div("Cmain-exchange-container--title",[
-                    h2(null,""),
-                    p()
+                    h2(null,"Visibilizamos todas las tasas de cambio."),
+                    p(null,"Traemos informaci&oacute;n en tiempo real de las casas de cambio y las monedas m&aacute; importantes del mundo.")
                 ]),
-                section("Cmain-tables-container",div())
+                section("Cmain-tables-container",
+                div("Cmain-currency-table",[
+                    p("Ccurrency-table--title","Monedas"),
+                    div("Ccurrency-table--container",
+                    table(null,[
+                        tr(null,[
+                            td("Ctable__top-left","Bitcoin"),
+                            td("Ctable__top-right table__right","$1.96")
+                        ]),
+                        tr(null,[
+                            td(null,"Ethereum"),
+                            td("Ctable__right","$0.07")
+                        ]),
+                        tr(null,[
+                            td(null,"Ripple"),
+                            td("Ctable__right","$2.17")
+                        ]),
+                        tr(null,[
+                            td("Ctable__bottom-left","Stellar"),
+                            td("Ctable__bottom-right table__right","$4.96")
+                        ])
+                    ]))
+                ]))
             ]),
             section(),
             section(),
