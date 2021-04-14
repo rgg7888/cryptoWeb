@@ -97,8 +97,12 @@ html("Les",[
             ])
         ]),
         footer(null,[
-            section(),
-            section()
+            section("Cleft",ul(null,[
+                li(null,a("H#","Linkedin")),
+                li(null,a("H#","Crunchbase")),
+                li(null,a("H#","Hackernews"))
+            ])),
+            section("Cright",cls(img("S./assets/img/logo-footer.svg ALogo*de*Batatabit*2020"),"*"))
         ])
     ])
 ]);
