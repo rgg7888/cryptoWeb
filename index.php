@@ -9,7 +9,7 @@ html("Les",[
         cls(meta("Nviewport cwidth=device-width,_initial-scale=1.0")),
         lk("Hhttps://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap Rstylesheet"),
         cls(lk("Rshortcut_icon H./assets/icons/batata.svg")),
-        title(null,"Batatabit"),
+        title(null,"Project 01 -> Batatabit"),
         style(null,[
             vars([
                 "bitcoin-orange" => "#f7931a",
@@ -26,7 +26,33 @@ html("Les",[
             sltr("html",["362.5%","4'DM Sans', sans-serif"]),
             sltr("header",[
                 "8relative","9flex","Acolumn",
-                "Bcenter","C100%","D320px","E334px","Fcenter"
+                "Bcenter","C100%","D320px","E334px",
+                "Fcenter","Jlinear-gradient(207.8deg,#201E1C 16.69%, #F7931A 100%)"
+            ]),
+            sltr("header img",[
+                "C150px","E24px","G40px","Hcenter"
+            ]),
+            sltr(".header--title-container",[
+                "C90%","D288px","I900px","E218px",
+                "G50px","Fcenter","Hcenter"
+            ]),
+            sltr(".header--title-container h1",[
+                "32.4rem","5bold","62.6rem","7var(--just-white)"
+            ]),
+            sltr(".header--title-container p",[
+                "G25px","31.4rem","5500","61.8rem",
+                "7var(--soft-orange)"
+            ]),
+            sltr(".header--title-container .header--button",[
+                "8absolute","K270px","9block","G35px",
+                "215px","C229px","E48px","Lvar(--off-white)",
+                "M0px 4px 8px rgba(89, 73, 30, 0.16)","Nnone",
+                "O5px","31.4rem","5bold","Pnone","7var(--black)",
+                "Qcalc(50% - 118px)"
+            ]),
+            sltr(".header--button span",[
+                "9inline-block","C13px","E8px",
+                "R10px","Surl('./assets/icons/down-arrow.svg')"
             ])
         ])
     ]),
@@ -34,7 +60,8 @@ html("Les",[
         hdr(null,[
             cls(img("S./assets/img/logo.svg ALogo_Principal_Header")),
             div("Cheader--title-container",[
-                h1(null,"La próxima revolución en el intercambio de criptomonedas."),
+                h1(null,["La próxima revolución en el intercambio de criptomonedas.",
+                "<br>Project 01"]),
                 p("Cheader-p","Batatabit te ayuda a navegar entre los diferentes precios y tendencias."),
                 a("H#plans Cheader--button",["Conoce Nuestros Planes",span()])
             ])
