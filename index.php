@@ -53,6 +53,12 @@ html("Les",[
             sltr(".header--button span",[
                 "9inline-block","C13px","E8px",
                 "R10px","Surl('./assets/icons/down-arrow.svg')"
+            ]),
+            sltr("main",[
+                "C100%","Eauto","Lvar(--off-white)"
+            ]),
+            sltr(".main-exchange-container",[
+                "C100%","Eauto",""
             ])
         ])
     ]),
