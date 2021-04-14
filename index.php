@@ -9,7 +9,26 @@ html("Les",[
         cls(meta("Nviewport cwidth=device-width,_initial-scale=1.0")),
         lk("Hhttps://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap Rstylesheet"),
         cls(lk("Rshortcut_icon H./assets/icons/batata.svg")),
-        title(null,"Batatabit")
+        title(null,"Batatabit"),
+        style(null,[
+            vars([
+                "bitcoin-orange" => "#f7931a",
+                "soft-orange" => "#ffe9d5",
+                "secondary-blue" => "#1a9af7",
+                "soft-blue" => "#e7f5ff",
+                "warm-black" => "#201e1c",
+                "black" => "#282623",
+                "grey" => "#bababa",
+                "off-white" => "#FAF8F7",
+                "just-white" => "#fff"
+            ]),
+            sltr("*",["0border-box","10","20"]),
+            sltr("html",["362.5%","4'DM Sans', sans-serif"]),
+            sltr("header",[
+                "8relative","9flex","Acolumn",
+                "Bcenter","C100%","D320px","E334px","Fcenter"
+            ])
+        ])
     ]),
     body(null,[
         hdr(null,[
