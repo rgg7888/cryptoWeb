@@ -56,8 +56,8 @@ html("Les",[
                 ]))
             ]),
             section("Cmain-product-detail",[
-                span(null),
-                div(null,[
+                span("Cproduct-detail--batata-logo"),
+                div("Cproduct-detail--title",[
                     h2(null,"Creamos un producto sin comparaci&oacute;n."),
                     p(null,"Confiable y diseñado para su uso diario.")
                 ]),
@@ -69,9 +69,36 @@ html("Les",[
                     ])
                 ])
             ]),
+            section("Cbitcoin-img-container",[
+                h2(null,"Con&oacute;celo hoy.")
+            ]),
+            section("Iplans Cmain-plans-container",[
+                div("Cplans--title",[
+                    h2(null,"Escoge el plan que mejor se ajuste a ti."),
+                    p(null,"Cualquier plan te da acceso completo a nuestra plataforma.")
+                ]),
+                section("Cplans-container--slider",
+                    article("Cplans-container--card",[
+                        p("Crecommended","Recomendado"),
+                        div("Cplan-info-container",[
+                            h3("Cplan-card-title","Pago Anual"),
+                            p("Cplan-card--price",[
+                                span(null,"$"),
+                                " 99"
+                            ]),
+                            p("Cplan-card--saving","* Ahorras $129 comparado al plan mensual."),
+                            button("Cplan-card--ca",[
+                                "Escoger este",
+                                span()
+                            ])
+                        ])
+                    ])
+                )
+            ])
+        ]),
+        footer(null,[
             section(),
             section()
-        ]),
-        footer()
+        ])
     ])
 ]);
