@@ -58,10 +58,16 @@ html("Les",[
             section("Cmain-product-detail",[
                 span(null),
                 div(null,[
-                    h2(null),
-                    p(null)
+                    h2(null,"Creamos un producto sin comparaci&oacute;n."),
+                    p(null,"Confiable y diseñado para su uso diario.")
                 ]),
-                section(null)
+                section("Cproduct-cards--container",[
+                    article("Cproduct-detail--card",[
+                        span("Cclock"),
+                        p("Cproduct--card-title","Tiempo real"),
+                        p("Cproduct--card-body","Nuestra API toma infomaci&oacute;n minuto a minuto sobre las tasas que m&aacute;s determinan el comportamiento.")
+                    ])
+                ])
             ]),
             section(),
             section()
