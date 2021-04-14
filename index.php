@@ -55,7 +55,14 @@ html("Les",[
                     ]))
                 ]))
             ]),
-            section(),
+            section("Cmain-product-detail",[
+                span(null),
+                div(null,[
+                    h2(null),
+                    p(null)
+                ]),
+                section(null)
+            ]),
             section(),
             section()
         ]),
