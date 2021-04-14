@@ -65,7 +65,8 @@ html("Les",[
                 "C90%","D288px","I900px","10 auto"
             ]),
             sltr(".main-exchange-container .backgroundImg",[
-                "C200px","E200px","10 auto"
+                "C200px","E200px","10 auto","V50px",
+                "Surl('./assets/img/bitcoin.svg')"
             ])
         ])
     ]),
