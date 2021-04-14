@@ -58,7 +58,14 @@ html("Les",[
                 "C100%","Eauto","Lvar(--off-white)"
             ]),
             sltr(".main-exchange-container",[
-                "C100%","Eauto",""
+                "C100%","Eauto","T80px","U30px",
+                "Fcenter"
+            ]),
+            sltr(".main-exchange-container--title",[
+                "C90%","D288px","I900px","10 auto"
+            ]),
+            sltr(".main-exchange-container .backgroundImg",[
+                "C200px","E200px","10 auto"
             ])
         ])
     ]),
