@@ -66,7 +66,35 @@ html("Les",[
             ]),
             sltr(".main-exchange-container .backgroundImg",[
                 "C200px","E200px","10 auto","V50px",
-                "Surl('./assets/img/bitcoin.svg')"
+                "Surl('./assets/img/bitcoin.svg')",
+                "Xcover","Ycenter","Zno-repeat"
+            ]),
+            sltr(".main-exchange-container h2",[
+                "V30px","32.4rem","5bold","62.6rem",
+                "7var(--black)"
+            ]),
+            sltr(".main-exchange-container p",[
+                "V30px","31.4rem","5500","61.6rem",
+                "7#757575"
+            ]),
+            sltr(".main-currency-table",[
+                "C70%","D235px","I500px","E360px",
+                "10 auto","4'Inter', sans-serif"
+            ]),
+            sltr(".main-currency-table .currency-table--title",[
+                "V15px","31.8rem","5bold","62.3rem",
+                "7var(--bitcoin-orange)"
+            ]),
+            sltr(".currency-table--container",[
+                "C90%","D230px","I300px","E250px",
+                "10 auto"
+            ]),
+            sltr(".currency-table--container table",[
+                "C100%","E100%"
+            ]),
+            sltr(".currency-table--container td",[
+                "C50%","31.6rem","5500","61.9rem",
+                "7var(--grey)","Lvar(--just-white)"
             ])
         ])
     ]),
@@ -75,7 +103,7 @@ html("Les",[
             cls(img("S./assets/img/logo.svg ALogo_Principal_Header")),
             div("Cheader--title-container",[
                 h1(null,["La próxima revolución en el intercambio de criptomonedas.",
-                "<br>Project 01"]),
+                "<br>Project 01 - FRONTEND"]),
                 p("Cheader-p","Batatabit te ayuda a navegar entre los diferentes precios y tendencias."),
                 a("H#plans Cheader--button",["Conoce Nuestros Planes",span()])
             ])
