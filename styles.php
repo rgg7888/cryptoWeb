@@ -156,6 +156,11 @@ echo implode("",
                 "61.8rem","7#808080"
             ]),
         #
+        #product-cards--container
+            /*sltr(".product-cards--container",[
+                "9block"
+            ]),*/
+        #
         #Product Detail Card
             sltr(".product-detail--card",[
                 "C90%","D288px","I400px",
@@ -168,6 +173,21 @@ echo implode("",
                 "V10px","Surl('./assets/icons/clock.svg')",
                 "Xcover","Ycenter","Zno-repeat"
             ]),
+            sltr(".product-detail--card .eye",[
+                "C20px","9inline-block","E20px",
+                "V10px","Surl('./assets/icons/eye.svg')",
+                "Xcover","Ycenter","Zno-repeat"
+            ]),
+            sltr(".product-detail--card .price",[
+                "C20px","9inline-block","E20px",
+                "V10px","Surl('./assets/icons/dollar-sign.svg')",
+                "Xcover","Ycenter","Zno-repeat"
+            ]),
+            sltr(".product-detail--card .ready",[
+                "C20px","9inline-block","E20px",
+                "V10px","Surl('./assets/icons/check-circle.svg')",
+                "Xcover","Ycenter","Zno-repeat"
+            ]),
             sltr(".product--card-title",[
                 "V15px","31.8rem","5bold",
                 "61.8rem","7var(--just-white)"
@@ -175,6 +195,36 @@ echo implode("",
             sltr(".product--card-body",[
                 "31.4rem","5500","61.8rem",
                 "7#808080"
+            ]),
+        #
+        #conocelo hoy section
+            sltr(".bitcoin-img-container",[
+                "C100%","D320px","E50vh",
+                "Surl('./assets/img/bitcoinbaby2x.jpg')",
+                "Xcover","Ycenter","Zno-repeat",
+                "Fcenter"
+            ]),
+            sltr(".bitcoin-img-container h2",[
+                "T60px","32.4rem","5bold",
+                "62.6rem","7var(--just-white)"
+            ]),
+        #
+        #main plans container
+            sltr(".main-plans-container",[
+                "C100%","D320px","U70px",
+                "Fcenter"
+            ]),
+            sltr(".plans--title",[
+                "C90%","D288px","Eauto",
+                "10 auto","V40px"
+            ]),
+            sltr(".plans--title h2",[
+                "G50px","32.4rem","5bold",
+                "62.6rem","7var(--black)"
+            ]),
+            sltr(".plans--title p",[
+                "T30px","31.4rem","5500",
+                "61.8rem","7#757575"
             ])
         #
     ]

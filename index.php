@@ -64,11 +64,37 @@ html("Les",[
                     p(null,"Confiable y diseñado para su uso diario.")
                 ]),
                 section("Cproduct-cards--container",[
-                    article("Cproduct-detail--card",[
-                        span("Cclock"),
-                        p("Cproduct--card-title","Tiempo real"),
-                        p("Cproduct--card-body","Nuestra API toma infomaci&oacute;n minuto a minuto sobre las tasas que m&aacute;s determinan el comportamiento.")
-                    ])
+                    #card 01
+                        article("Cproduct-detail--card",[
+                            span("Cclock"),
+                            p("Cproduct--card-title","Tiempo real"),
+                            p("Cproduct--card-body","Nuestra API toma infomaci&oacute;n minuto a minuto sobre las tasas que m&aacute;s determinan el comportamiento.")
+                        ]),
+                    #
+                    #card 02
+                        article("Cproduct-detail--card",[
+                            span("Ceye"),
+                            p("Cproduct--card-title","No hay tasas escondidas"),
+                            p("Cproduct--card-body","Ni en la compra o al momento de exit, 
+                            Batabit siempre te muestra el costo real de lo que estás adquiriendo.")
+                        ]),
+                    #
+                    #card 03
+                        article("Cproduct-detail--card",[
+                            span("Cprice"),
+                            p("Cproduct--card-title","Compara monedas"),
+                            p("Cproduct--card-body","No más rumores, con Babtabit 
+                            sabrás el valor real de cada moneda en el mercado actual.")
+                        ]),
+                    #
+                    #card 04
+                        article("Cproduct-detail--card",[
+                            span("Cready"),
+                            p("Cproduct--card-title","Información confiable"),
+                            p("Cproduct--card-body","Nuestras fuentes están 100% verificadas y 
+                            continuamos auditando su contenido mientras se actualizan.")
+                        ])
+                    #
                 ])
             ]),
             section("Cbitcoin-img-container",[
