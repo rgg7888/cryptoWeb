@@ -136,7 +136,24 @@ echo implode("",
         #Main Product Detail
             sltr(".main-product-detail",[
                 "8relative","C100%","D320px",
-                "Eauto","220px 10px"
+                "Eauto","220px 10px","Lvar(--warm-black)"
+            ]),
+            sltr(".product-detail--batata-logo",[
+                "8absolute","C40px","E25px",
+                "Surl('./assets/icons/batata.svg')",
+                "K-10px","Qcalc(50% - 20px)"
+            ]),
+            sltr(".product-detail--title",[
+                "C90%","D288px","Eauto","10 auto",
+                "G50px","Fcenter"
+            ]),
+            sltr(".product-detail--title h2",[
+                "V20px","32.4rem","5bold",
+                "62.6rem","7var(--just-white)"
+            ]),
+            sltr(".product-detail--title p",[
+                "V20px","31.4rem","5500",
+                "61.8rem","7#808080"
             ])
         #
     ]
