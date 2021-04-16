@@ -131,6 +131,12 @@ echo implode("",
             sltr(".currency-tale--date p, .commision-table--date p",[
                 "31.2rem","61.5rem","7var(--warm-black)",
                 "5300"
+            ]),
+        #
+        #Main Product Detail
+            sltr(".main-product-detail",[
+                "8relative","C100%","D320px",
+                "Eauto","220px 10px"
             ])
         #
     ]

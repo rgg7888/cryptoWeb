@@ -12,13 +12,12 @@ html("Les",[
         title(null,"Project 01 -> Batatabit"),
         style("Istyle")
     ]),
-    body(null,[
+    body("OloadDoc()",[
         hdr(null,[
             cls(img("S./assets/img/logo.svg ALogo_Principal_Header")),
             div("Cheader--title-container",[
                 h1(null,["La próxima revolución en el intercambio de criptomonedas.",
                 "<br>Project 01 - FRONTEND"]),
-                button("Tbutton OloadDoc()","Add Css"),
                 p("Cheader-p","Batatabit te ayuda a navegar entre los diferentes precios y tendencias."),
                 a("H#plans Cheader--button",["Conoce Nuestros Planes",span()])
             ])
