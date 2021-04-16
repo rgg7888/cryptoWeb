@@ -94,7 +94,42 @@ html("Les",[
             ]),
             sltr(".currency-table--container td",[
                 "C50%","31.6rem","5500","61.9rem",
-                "7var(--grey)","Lvar(--just-white)"
+                "7var(--grey)","Lvar(--just-white)",
+                "Fcenter"
+            ]),
+            sltr(".currency-table--container .table__top-left",[
+                "O15px 0 0 0"
+            ]),
+            sltr(".currency-table--container .table__top-right",[
+                "O0 15px 0 0"
+            ]),
+            sltr(".currency-table--container .table__bottom-left",[
+                "O0 0 0 15px"
+            ]),
+            sltr(".currency-table--container .table__bottom-right",[
+                "O0 0 15px 0"
+            ]),
+            sltr(".currency-table--container .table__right",[
+                "31.4rem","5normal","61.7rem","7#757575"
+            ]),
+            sltr(".currency-table--container .down",[
+                "9inline-block","C15px","E15px","R10px",
+                "Surl('./assets/icons/trending-down.svg')",
+                "Xcover","Ycenter","Zno-repeat"
+            ]),
+            sltr(".currency-table--container .up",[
+                "9inline-block","C15px","E15px","R10px",
+                "Surl('./assets/icons/trending-up.svg')",
+                "Xcover","Ycenter","Zno-repeat"
+            ]),
+            sltr(".currency-table--date",[
+                "C190px","E30px","10 auto",
+                "G15px","28px","Lvar(--soft-orange)",
+                "O8px"
+            ]),
+            sltr(".currency-tale--date p, .commision-table--date p",[
+                "31.2rem","61.5rem","7var(--warm-black)",
+                "5300"
             ])
         ])
     ]),
@@ -122,24 +157,24 @@ html("Les",[
                     table(null,[
                         tr(null,[
                             td("Ctable__top-left","Bitcoin"),
-                            cls(td("Ctable__top-right*table__right","$1.96"),"*")
+                            cls(td("Ctable__top-right*table__right",["$1.96",span("Cdown")]),"*")
                         ]),
                         tr(null,[
                             td(null,"Ethereum"),
-                            td("Ctable__right","$0.07")
+                            td("Ctable__right",["$0.07",span("Cup")])
                         ]),
                         tr(null,[
                             td(null,"Ripple"),
-                            td("Ctable__right","$2.17")
+                            td("Ctable__right",["$2.17",span("Cdown")])
                         ]),
                         tr(null,[
                             td("Ctable__bottom-left","Stellar"),
-                            cls(td("Ctable__bottom-right*table__right","$4.96"),"*")
+                            cls(td("Ctable__bottom-right*table__right",["$4.96",span("Cup")]),"*")
                         ])
                     ])),
                     div("Ccurrency-table--date",p(null,[
                         b(null,"Actualizado: "),
-                        "4/11/2021 4:53 PM"
+                        "Abril 11 4:53"
                     ]))
                 ]))
             ]),
