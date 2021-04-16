@@ -154,6 +154,27 @@ echo implode("",
             sltr(".product-detail--title p",[
                 "V20px","31.4rem","5500",
                 "61.8rem","7#808080"
+            ]),
+        #
+        #Product Detail Card
+            sltr(".product-detail--card",[
+                "C90%","D288px","I400px",
+                "E150px","115px auto",
+                "215px","Lvar(--black)",
+                "O5px","M0 4px 8px rgba(0, 0, 0, 0.16)"
+            ]),
+            sltr(".product-detail--card .clock",[
+                "C20px","9inline-block","E20px",
+                "V10px","Surl('./assets/icons/clock.svg')",
+                "Xcover","Ycenter","Zno-repeat"
+            ]),
+            sltr(".product--card-title",[
+                "V15px","31.8rem","5bold",
+                "61.8rem","7var(--just-white)"
+            ]),
+            sltr(".product--card-body",[
+                "31.4rem","5500","61.8rem",
+                "7#808080"
             ])
         #
     ]
