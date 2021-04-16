@@ -228,9 +228,13 @@ echo implode("",
             ]),
         #
         #plans container card
-        sltr(".plans-container--card",[
-            "8relative",""
-        ])
+            sltr(".plans-container--card",[
+                "8relative","C70%","D190px",
+                "I300px","E250px","150px 8px 0"
+            ]),
+            sltr2(".plans-container--card",[
+                "0center"
+            ]),
         #
         #recommended
         #
