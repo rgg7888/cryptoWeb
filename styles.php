@@ -225,7 +225,38 @@ echo implode("",
             sltr(".plans--title p",[
                 "T30px","31.4rem","5500",
                 "61.8rem","7#757575"
-            ])
+            ]),
+        #
+        #plans container card
+        sltr(".plans-container--card",[
+            "8relative",""
+        ])
+        #
+        #recommended
+        #
+        #plan card title
+        #
+        #plan card price
+        #
+        #plan car price span
+        #
+        #plan card saving
+        #
+        #plan card ca
+        #
+        #plan card ca span
+        #
+        #plan container slider
+        #
+        #footer
+        #
+        #footer section 
+        #
+        #footer left ul
+        #
+        #left li
+        #
+        #left a
         #
     ]
 
