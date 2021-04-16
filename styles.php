@@ -216,10 +216,10 @@ echo implode("",
             ]),
             sltr(".plans--title",[
                 "C90%","D288px","Eauto",
-                "10 auto","V40px"
+                "10 auto","V50px"
             ]),
             sltr(".plans--title h2",[
-                "G50px","32.4rem","5bold",
+                "T50px","32.4rem","5bold",
                 "62.6rem","7var(--black)"
             ]),
             sltr(".plans--title p",[
@@ -230,8 +230,8 @@ echo implode("",
         #plans container card
             unirStyles([
                 sltr(".plans-container--card",[
-                    "8relative","C70%","D190px",
-                    "I300px","E250px","150px 8px 0",
+                    "8relative","C70%","D230px",
+                    "I300px","E250px","150px auto 0",
                     "20 15px","Lvar(--just-white)",
                     "O15px","M0 4px 8px rgba(89, 73, 30, 0.16)"
                 ]),
@@ -244,19 +244,38 @@ echo implode("",
             sltr(".recommended",[
                 "8absolute","C120px","E31px",
                 "Qcalc(50% - 60px)","K-15px",
-                "31.2rem","27px","Lvar(--bitcoin-orange)",
+                "31.2rem","26px","Lvar(--bitcoin-orange)",
                 "O8px","7var(--just-white)"
             ]),
         #
         #plan card title
+            sltr(".plan-card--title",[
+                "T30px","31.4rem","5700",
+                "61.8rem","7var(--black)"
+            ]),
         #
         #plan card price
+            sltr(".plan-card--price",[
+                "25px 0","35.2rem","5bold",
+                "65.3rem","7var(--black)"
+            ]),
         #
         #plan car price span
+            sltr(".plan-card--price span",[
+                "31.2rem","5bold"
+            ]),
         #
         #plan card saving
+            sltr(".plan-card--saving",[
+                "31.2rem","7#757575"
+            ]),
         #
         #plan card ca
+            sltr(".plan-card--ca",[
+                "C150px","E48px","G20px",
+                "L#faf8f7","N2px solid var(--bitcoin-orange)",
+                "O4px"
+            ])
         #
         #plan card ca span
         #

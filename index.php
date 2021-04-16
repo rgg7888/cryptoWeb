@@ -109,7 +109,7 @@ html("Les",[
                     article("Cplans-container--card",[
                         p("Crecommended","Recomendado"),
                         div("Cplan-info-container",[
-                            h3("Cplan-card-title","Pago Anual"),
+                            h3("Cplan-card--title","Pago Anual"),
                             p("Cplan-card--price",[
                                 span(null,"$"),
                                 " 99"
