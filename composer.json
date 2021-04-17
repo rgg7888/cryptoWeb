@@ -1,0 +1,17 @@
+{
+    "name": "rgg78/crypto-web",
+    "description": "website",
+    "type": "project",
+    "require-dev": {
+        "ramirogg/seh": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rgg7888",
+            "email": "rgg7888@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

@@ -261,8 +261,13 @@ echo implode("",
             ]),
         #
         #plan car price span
-            sltr(".plan-card--price span",[
-                "31.2rem","5bold"
+            unirStyles([
+                sltr(".plan-card--price span",[
+                    "31.2rem","5bold"
+                ]),
+                sltr2(".plan-card--price span",[
+                    "1super"
+                ])
             ]),
         #
         #plan card saving
@@ -274,12 +279,25 @@ echo implode("",
             sltr(".plan-card--ca",[
                 "C150px","E48px","G20px",
                 "L#faf8f7","N2px solid var(--bitcoin-orange)",
-                "O4px"
-            ])
+                "O4px","31.4rem","5bold","61.8rem",
+                "7var(--black)","4'DM Sans', sans-serif"
+            ]),
         #
         #plan card ca span
+            unirStyles([
+                sltr(".plan-card--ca span",[
+                    "9inline-block","C20px",
+                    "E20px","Surl('./assets/icons/orange-right-arrow.svg')"
+                ]),
+                sltr2(".plan-card--ca span",[
+                    "1text-bottom",
+                ])
+            ]),
         #
         #plan container slider
+            sltr(".plans-container--slider",[
+                "9flex","E316px"
+            ])
         #
         #footer
         #

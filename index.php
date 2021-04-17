@@ -105,7 +105,7 @@ html("Les",[
                     h2(null,"Escoge el plan que mejor se ajuste a ti."),
                     p(null,"Cualquier plan te da acceso completo a nuestra plataforma.")
                 ]),
-                section("Cplans-container--slider",
+                section("Cplans-container--slider",[
                     article("Cplans-container--card",[
                         p("Crecommended","Recomendado"),
                         div("Cplan-info-container",[
@@ -120,8 +120,22 @@ html("Les",[
                                 span()
                             ])
                         ])
+                    ]),
+                    article("Cplans-container--card",[
+                        div("Cplan-info-container",[
+                            h3("Cplan-card--title","Pago --"),
+                            p("Cplan-card--price",[
+                                span(null,"$"),
+                                " 00"
+                            ]),
+                            p("Cplan-card--saving","* --------"),
+                            button("Cplan-card--ca",[
+                                "Escoger este",
+                                span()
+                            ])
+                        ])
                     ])
-                )
+                ])
             ])
         ]),
         footer(null,[
