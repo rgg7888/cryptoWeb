@@ -231,12 +231,12 @@ echo implode("",
             unirStyles([
                 sltr(".plans-container--card",[
                     "8relative","C70%","D230px",
-                    "I300px","E250px","150px auto 0",
+                    "I300px","E250px","150px 30px 0",
                     "20 15px","Lvar(--just-white)",
                     "O15px","M0 4px 8px rgba(89, 73, 30, 0.16)"
                 ]),
                 sltr2(".plans-container--card",[
-                    "0center"
+                    "0center","7center"
                 ])
             ]),
         #

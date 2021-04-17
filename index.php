@@ -107,6 +107,20 @@ html("Les",[
                 ]),
                 section("Cplans-container--slider",[
                     article("Cplans-container--card",[
+                        div("Cplan-info-container",[
+                            h3("Cplan-card--title","Pago --"),
+                            p("Cplan-card--price",[
+                                span(null,"$"),
+                                " 00"
+                            ]),
+                            p("Cplan-card--saving","* --------"),
+                            button("Cplan-card--ca",[
+                                "Escoger este",
+                                span()
+                            ])
+                        ])
+                    ]),
+                    article("Cplans-container--card",[
                         p("Crecommended","Recomendado"),
                         div("Cplan-info-container",[
                             h3("Cplan-card--title","Pago Anual"),
