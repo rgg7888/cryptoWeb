@@ -322,13 +322,24 @@ echo implode("",
             ]),
         #
         #footer left ul
-            sltr("footer .left ul",[
-                
-            ])
+            unirStyles([
+                sltr("footer .left ul",[
+                    "31.4rem","5500","61.8rem"
+                ]),
+                sltr2("footer .left ul",[
+                    "9none"
+                ])
+            ]),
         #
         #left li
+            sltr(".left li",[
+                "110px 0"
+            ]),
         #
         #left a
+            sltr(".left a",[
+                "Pnone","7var(--just-white)"
+            ])
         #
     ]
 
