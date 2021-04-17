@@ -302,13 +302,29 @@ echo implode("",
                 sltr2(".plans-container--slider",[
                     "2scroll","5contain","6x proximity"
                 ])
-            ])
+            ]),
         #
         #footer
+            sltr("footer",[
+                "9flex","C100%","E150px",
+                "Lvar(--bitcoin-orange)"
+            ]),
         #
         #footer section 
+            unirStyles([
+                sltr("footer section",[
+                    "9flex","Bcenter",
+                    "C50%"
+                ]),
+                sltr2("footer section",[
+                    "8center"
+                ])
+            ]),
         #
         #footer left ul
+            sltr("footer .left ul",[
+                
+            ])
         #
         #left li
         #
