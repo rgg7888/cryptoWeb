@@ -295,8 +295,13 @@ echo implode("",
             ]),
         #
         #plan container slider
-            sltr(".plans-container--slider",[
-                "9flex","E316px"
+            unirStyles([
+                sltr(".plans-container--slider",[
+                    "9flex","E316px"
+                ]),
+                sltr2(".plans-container--slider",[
+                    "2scroll"
+                ])
             ])
         #
         #footer
