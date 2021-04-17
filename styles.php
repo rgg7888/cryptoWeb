@@ -300,7 +300,7 @@ echo implode("",
                     "9flex","E316px"
                 ]),
                 sltr2(".plans-container--slider",[
-                    "2scroll"
+                    "2scroll","5contain","6x proximity"
                 ])
             ])
         #
