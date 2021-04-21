@@ -29,33 +29,66 @@ html("Les",[
                     h2(null,"Visibilizamos todas las tasas de cambio."),
                     p(null,"Traemos informaci&oacute;n en tiempo real de las casas de cambio y las monedas m&aacute; importantes del mundo.")
                 ]),
-                section("Cmain-tables-container",
-                div("Cmain-currency-table",[
-                    p("Ccurrency-table--title","Monedas"),
-                    div("Ccurrency-table--container",
-                    table(null,[
-                        tr(null,[
-                            td("Ctable__top-left","Bitcoin"),
-                            cls(td("Ctable__top-right*table__right",["$1.96",span("Cdown")]),"*")
+                section("Cmain-tables-container",[
+                    #monedas table
+                        div("Cmain-currency-table",[
+                            p("Ccurrency-table--title","Monedas"),
+                            div("Ccurrency-table--container",
+                            table(null,[
+                                tr(null,[
+                                    td("Ctable__top-left","Bitcoin"),
+                                    cls(td("Ctable__top-right*table__right",["$1.96",span("Cdown")]),"*")
+                                ]),
+                                tr(null,[
+                                    td(null,"Ethereum"),
+                                    td("Ctable__right",["$0.07",span("Cup")])
+                                ]),
+                                tr(null,[
+                                    td(null,"Ripple"),
+                                    td("Ctable__right",["$2.17",span("Cdown")])
+                                ]),
+                                tr(null,[
+                                    td("Ctable__bottom-left","Stellar"),
+                                    cls(td("Ctable__bottom-right*table__right",["$4.96",span("Cup")]),"*")
+                                ])
+                            ])),
+                            div("Ccurrency-table--date",p(null,[
+                                b(null,"Actualizado: "),
+                                "Abril 11 4:53"
+                            ]))
                         ]),
-                        tr(null,[
-                            td(null,"Ethereum"),
-                            td("Ctable__right",["$0.07",span("Cup")])
-                        ]),
-                        tr(null,[
-                            td(null,"Ripple"),
-                            td("Ctable__right",["$2.17",span("Cdown")])
-                        ]),
-                        tr(null,[
-                            td("Ctable__bottom-left","Stellar"),
-                            cls(td("Ctable__bottom-right*table__right",["$4.96",span("Cup")]),"*")
+                    
+                    #
+                    #comisiones table 
+                        div("Cmain-commissions-table",[
+                            p("Ccommissions-table--title","Comisiones"),
+                            div("Ccommissions-table--container",table(null,[
+                                tr(null,[
+                                    td("Ctable__top-left","Bitrade"),
+                                    cls(td("Ctable__top-right*table__right","$12.96"),"*")
+                                ]),
+                                tr(null,[
+                                    td(null,"Bitpreco"),
+                                    td("Ctable__right","$13.07")
+                                ]),
+                                tr(null,[
+                                    td(null,"Novadax"),
+                                    td("Ctable__right","$13.15")
+                                ]),
+                                tr(null,[
+                                    td("Ctable__bottom-left","Coinext"),
+                                    cls(td("Ctable__bottom-right*table__right","$14.96"),"*")
+                                ])
+                            ])),
+                            div("Ccommissions-table--date",
+                                p(null,[
+                                    b(null,"Actualizado:"),
+                                    "Abril 20 6:38"
+                                ])
+                            )
                         ])
-                    ])),
-                    div("Ccurrency-table--date",p(null,[
-                        b(null,"Actualizado: "),
-                        "Abril 11 4:53"
-                    ]))
-                ]))
+                    #
+                ])
             ]),
             section("Cmain-product-detail",[
                 span("Cproduct-detail--batata-logo"),

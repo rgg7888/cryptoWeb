@@ -93,24 +93,29 @@ echo implode("",
             sltr(".currency-table--container table",[
                 "C100%","E100%"
             ]),
-            sltr(".currency-table--container td",[
+            sltr(".currency-table--container td, .commissions-table--container td",[
                 "C50%","31.6rem","5500","61.9rem",
                 "7var(--grey)","Lvar(--just-white)",
                 "Fcenter"
             ]),
-            sltr(".currency-table--container .table__top-left",[
+            sltr(".currency-table--container .table__top-left,
+            .commissions-table--container .table__top-left",[
                 "O15px 0 0 0"
             ]),
-            sltr(".currency-table--container .table__top-right",[
+            sltr(".currency-table--container .table__top-right,
+            .commissions-table--container .table__top-right",[
                 "O0 15px 0 0"
             ]),
-            sltr(".currency-table--container .table__bottom-left",[
+            sltr(".currency-table--container .table__bottom-left,
+            .commissions-table--container .table__bottom-left",[
                 "O0 0 0 15px"
             ]),
-            sltr(".currency-table--container .table__bottom-right",[
+            sltr(".currency-table--container .table__bottom-right,
+            .commissions-table--container .table__bottom-right",[
                 "O0 0 15px 0"
             ]),
-            sltr(".currency-table--container .table__right",[
+            sltr(".currency-table--container .table__right,
+            .commissions-table--container .table__right",[
                 "31.4rem","5normal","61.7rem","7#757575"
             ]),
             sltr(".currency-table--container .down",[
@@ -128,9 +133,24 @@ echo implode("",
                 "G15px","28px","Lvar(--soft-orange)",
                 "O8px"
             ]),
-            sltr(".currency-tale--date p, .commision-table--date p",[
+            sltr(".commissions-table--date",[
+                "C190px","E31px","10 auto",
+                "G15px","28px","Lvar(--soft-blue)",
+                "O8px"
+            ]),
+            sltr(".currency-tale--date p, .commission-table--date p",[
                 "31.2rem","61.5rem","7var(--warm-black)",
                 "5300"
+            ]),
+            #commissions table
+            sltr(".main-commissions-table .commissions-table--title",[
+                "V15px","31.8rem","5bold","62.3rem","7var(--secondary-blue)"
+            ]),
+            sltr(".currency-table--container,.commissions-table--container",[
+                "C90%","D230px","I300px","E250px","10 auto","O15px","Lvar(--just-white)"
+            ]),
+            sltr(".currency-table--container table,.commissions-table--container table",[
+                "C100%","E100%"
             ]),
         #
         #Main Product Detail
@@ -339,6 +359,24 @@ echo implode("",
         #left a
             sltr(".left a",[
                 "Pnone","7var(--just-white)"
+            ]),
+        #
+        #media queries
+            mq("930",[
+                sltr(".main-tables-container",[
+                    "9flex","C930px","10 auto"
+                ]),
+                unirStyles([
+                    sltr(".product-cards--container",[
+                        "9flex","C930px","10 auto"
+                    ]),
+                    sltr2(".product-cards--container",[
+                        "Awrap"
+                    ])
+                ]),
+                sltr(".plans-container--slider",[
+                    "Bcenter"
+                ])
             ])
         #
     ]
